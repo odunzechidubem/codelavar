@@ -877,3 +877,19 @@ footer {
     .contact-wrapper { grid-template-columns: 1fr; }
     .contact-form-container { padding: 1.5rem; }
 }
+
+/* Privacy Policy Styles */
+.privacy-heading {
+    font-size: 2.5rem;
+    /* margin-bottom: 1.5rem; */
+    margin-top: 5rem;
+}
+
+.privacy-section {
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
