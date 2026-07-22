@@ -117,7 +117,7 @@ header {
     height: 80px;
 }
 
-.logo {
+/* .logo {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--dark-bg);
@@ -126,6 +126,19 @@ header {
 
 .logo .dot {
     color: var(--primary);
+} */
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    height: 55px;
+    width: auto;
+    display: block;
+    object-fit: contain;
 }
 
 .nav-links {
@@ -665,6 +678,10 @@ footer {
     .btn-outline {
         margin-left: 0;
     }
+
+    /* .logo-footer {
+        margin-bottom: 1rem;
+    } */
 
     .footer-grid {
         grid-template-columns: 1fr;
